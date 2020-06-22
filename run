@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+
+gunicorn3 -w 2 webserver.wsgi
